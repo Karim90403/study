@@ -1,0 +1,53 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace UD_Muza
+{
+    public partial class Form4_Student_ : Form
+    {
+        public Form4_Student_()
+        {
+            InitializeComponent();
+        }
+
+        private void studentBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.studentBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.muzaDataSet);
+
+        }
+
+        private void Form4_Student__Load(object sender, EventArgs e)
+        {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "muzaDataSet.StudGroup". При необходимости она может быть перемещена или удалена.
+            this.studGroupTableAdapter.Fill(this.muzaDataSet.StudGroup);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "muzaDataSet.Student". При необходимости она может быть перемещена или удалена.
+            this.studentTableAdapter.Fill(this.muzaDataSet.Student);
+
+        }
+
+        private void birthdayLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void genderComboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form form = new Form6_StudTable_();
+            form.Show();
+        }
+    }
+}
