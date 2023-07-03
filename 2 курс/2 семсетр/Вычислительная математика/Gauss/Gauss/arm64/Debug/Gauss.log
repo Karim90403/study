@@ -1,0 +1,4 @@
+﻿  Gauss.cpp
+\\Mac\Home\Desktop\2 семсетр\Вычислительная математика\Gauss\Gauss\Gauss.cpp(24,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+\\Mac\Home\Desktop\2 семсетр\Вычислительная математика\Gauss\Gauss\Gauss.cpp(97,17): warning C4244: 'initializing': conversion from 'unsigned __int64' to 'double', possible loss of data
+  Gauss.vcxproj -> \\Mac\Home\Desktop\2 семсетр\Вычислительная математика\Gauss\arm64\Debug\Gauss.exe
