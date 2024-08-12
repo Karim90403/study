@@ -1,0 +1,12 @@
+[submodule "1_course"]
+	path = 1_course
+	url = https://github.com/Karim90403/Stankin-1-2-sem
+[submodule "2_course"]
+	path = 2_course
+	url = https://github.com/Karim90403/Stankin-3-4-sem
+[submodule "3_course"]
+	path = 3_course
+	url = https://github.com/Karim90403/Stankin-5-6-sem
+[submodule "DataSciense"]
+	path = DataSciense
+	url = https://github.com/Karim90403/DataSciense
